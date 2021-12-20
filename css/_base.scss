@@ -1,0 +1,19 @@
+*, 
+html, 
+body {
+    font-family: $font-family;
+}
+
+body {
+    background: darken($color-white, 2%);
+}
+
+.border {
+    &-grey {
+        border-color: #EEE !important;
+    }
+
+    &-green {
+        border-color: $color-green !important;
+    }
+}

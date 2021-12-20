@@ -1,0 +1,76 @@
+.teddy-bear {
+
+    &__back {
+        overflow: hidden;
+        width: 100%;
+        padding: 80px;
+        border-radius: 16px;
+        background-color: #fff;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    &__info h2 {
+        color: $color-black-2;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+
+    &__info p {
+        color: $color-gray-2;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    &__info h4 {
+        color: $color-red;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    &__field {
+        border-radius: 5px;
+        border-color: $color-black-1;
+        border-width: 1px;
+        color: $color-black-1;
+        max-width: 40%;
+        padding: 5px 5px;
+        padding-left: 12px;
+    }
+
+    &__image {
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block;
+        width: 100%;
+    }
+
+    &__button {
+        cursor: pointer;
+        border-radius: 24px;
+        background-color: $color-red;
+        border: $color-red;
+        color: #fff;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+        height: 48px;
+        padding: 12px 28px;
+        text-align: center;
+        text-decoration: none;
+    
+    }
+
+    &__title {
+        color: $color-black-2;
+        font-size: 17px;
+        font-weight: 24px;
+        line-height: 400;
+    }
+
+}

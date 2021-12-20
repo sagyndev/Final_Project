@@ -1,0 +1,81 @@
+.cart-modal {
+    background: rgba(0 ,0, 0, 0.8);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    &--on {
+        display: flex;
+    }
+    
+    &__container {
+        background: $color-white;
+        border-radius: 20px;
+        width: 90%;
+        max-width: 500px;
+    }
+
+    &__title-bar {
+        border-bottom: 1px solid rgba($color-black, 0.2);
+        padding: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    &__close {
+        border: 0;
+        background: transparent;
+        font-size: 2rem;
+    }
+
+    &__items {
+        border-bottom: 1px solid rgba($color-black, 0.2);
+    }
+
+    &__item-img {
+        width: 60px;
+    }
+
+    &__item-title {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    &__item-price {
+        font-size: 0.7rem;
+        margin: 0;
+    }
+
+    &__item-remove-btn {
+        background: transparent;
+        border: 0;
+        color: $color-pink;
+        font-size: 0.7rem;
+        padding: 0;
+        text-decoration: underline;
+    }
+
+    &__item-qty {
+        @extend .contacts-info__input;
+        text-align: center;
+        width: 80px;
+    }
+
+    &__continue-btn {
+        @extend .contacts-info__btn;
+        border: 0;
+        width: 100%;
+    }
+}

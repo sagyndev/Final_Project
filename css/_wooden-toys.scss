@@ -1,0 +1,64 @@
+.wooden-toys {
+    margin-top: 60px;
+
+    &__title {
+        color: $color-black-2;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 36px;
+
+    }
+
+    &__all-link {
+        color: $color-black-2;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+
+        &:hover {
+            color: $color-black-2;
+            text-decoration: none;
+        }
+    }
+
+    &__card {
+        background-color: $color-white;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);;
+        border-radius: 10px;
+        display: block;
+        text-align: center;
+        padding: 35px 30px;
+        transition: all 300ms ease;
+        
+        &:hover {
+            box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.15);
+            text-decoration: none;
+            transform: scale(1.05) translate(0px, -2px);
+        }
+    }
+
+    &__img {
+        max-width: 90%;
+    }
+
+    &__name {
+        color: $color-black-2;
+    }
+
+    &__btn {
+        background: $color-green;
+        border-radius: 20px;
+        color: $color-white;
+        display: inline-block;
+        font-size: .7rem;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wooden-toys__title-bar {
+        width: 100%;
+    }
+
+    
+}
